@@ -19,4 +19,6 @@ int main()
   cout << "please give us the name of the company or creator of the game"
   cin >> string
   cout << endl;
+
+  return 0;
 }
