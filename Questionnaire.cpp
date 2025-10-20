@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -9,10 +10,10 @@ int main()
     cout << "Welcome to Al's Questionnaire assignment!!" << endl;
 
     cout << "Please list your favorite Baseball team: ";
-    cin >> str1;
+    getline(cin, str1);
     cout << endl;
 
-    cout << "If you have a favorite, please list what conference they are in: "; 
+    cout << "If you have a favorite, please list what conference they are in: ";
     cin >> str2;
     cout << endl;
 
@@ -23,7 +24,7 @@ int main()
     cout << "Your favorite team is: " << str1 << endl;
     cout << "Your favorite team plays in the: " << str2 << endl;
     cout << "Your favorite team last won the world series back in: " << str3 << endl;
-    
+
 
     return 0;
 }
