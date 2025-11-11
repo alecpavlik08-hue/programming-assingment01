@@ -1,6 +1,5 @@
 # programming-assingment01
 week 01 ITCS 2530 programming assignment.
-In this Repo, you will need to fill out the questions with your honest answers
-The topic of this questionare is about Baseball and your favroite teams!!
-Answer the prompts as honestly as possible!!
-All question answers will be output into the report.txt file
+this program is meant to show all 30 MLB teams and their last world series run they made
+each team has their last season winning the series as well as their last recorded stats and win percentage from those seasons
+please note that team stgats are not generated for the report until a team is selected by the user for stats to be recorded!!
